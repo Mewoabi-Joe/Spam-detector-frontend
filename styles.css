@@ -1,0 +1,44 @@
+html {
+	height: 100%;
+}
+body {
+	display: grid;
+	place-content: center;
+	height: 100%;
+	background-color: rgb(161, 223, 207);
+}
+
+h1{
+	color: rgb(76, 50, 226);
+}
+
+#wrapper {
+	text-align: center;
+	width: 700px;
+	padding: 50px;
+}
+
+form {
+	text-align: center;
+	padding: 20px 10px;
+	width: 100%;
+}
+
+#email {
+	margin-bottom: 20px;
+}
+
+input {
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+input[type="submit"] {
+	background-color: rgb(192, 41, 66);
+	color: white;
+}
+
+textarea{
+	width: 300px;
+	height: 100px;
+}
